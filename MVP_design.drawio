@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T01:05:21.541Z" agent="5.0 (Windows)" etag="RQljACASThwRbNbyJiAl" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T02:27:43.832Z" agent="5.0 (Windows)" etag="7ehlom63y7kcUkffoam5" version="14.1.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="942" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1570" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WWAp1A02eeEXavUCdxNv-14" value="&lt;div&gt;Web client&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWAp1A02eeEXavUCdxNv-15" value="Gateway API" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="60" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
