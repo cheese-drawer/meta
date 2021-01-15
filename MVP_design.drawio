@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T15:13:22.113Z" agent="5.0 (iPhone; CPU OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/30.0  Mobile/15E148 Safari/605.1.15" etag="-yvD20MpNJNGONY23-6e" version="14.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T15:18:19.471Z" agent="5.0 (iPhone; CPU OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/30.0  Mobile/15E148 Safari/605.1.15" etag="zsYSnxI17oKajfwuhMzh" version="14.2.3" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="487" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="455" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,10 +53,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-1fxc4yib7ofRESS5T0K-1" value="When Plaid pulls down new info for a bank account, Transactions need pushed to Transaction Service" style="shape=note;size=20;whiteSpace=wrap;html=1;spacing=8;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="890" y="240" width="200" height="70" as="geometry" />
+          <mxGeometry x="890" y="220" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-1fxc4yib7ofRESS5T0K-6" value="When a Transaction updates it&#39;s `spent_from` property, the appropriate Budget Items need their `assoc_trans` properties updated" style="shape=note;size=20;whiteSpace=wrap;html=1;spacing=8;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="890" y="410" width="200" height="90" as="geometry" />
+          <mxGeometry x="890" y="470" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-1fxc4yib7ofRESS5T0K-9" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;jumpStyle=gap;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="WWAp1A02eeEXavUCdxNv-32" target="-1fxc4yib7ofRESS5T0K-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -65,16 +65,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-1fxc4yib7ofRESS5T0K-10" value="When new transactions are updated, Balance needs recalculated" style="shape=note;size=20;whiteSpace=wrap;html=1;spacing=8;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="890" y="330" width="200" height="60" as="geometry" />
+          <mxGeometry x="890" y="400" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-1fxc4yib7ofRESS5T0K-11" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Verdana;jumpStyle=gap;" parent="1" source="ln_ZyMrxEjAvicW-0nf5-11" target="-1fxc4yib7ofRESS5T0K-12" edge="1">
+        <mxCell id="-1fxc4yib7ofRESS5T0K-11" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;jumpStyle=gap;" parent="1" target="-1fxc4yib7ofRESS5T0K-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="813" y="488" as="sourcePoint" />
+            <mxPoint x="850" y="590" as="sourcePoint" />
             <mxPoint x="930" y="645" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-1fxc4yib7ofRESS5T0K-12" value="When Budget Item&#39;s available_funds are updated, Balance needs recalculated" style="shape=note;size=20;whiteSpace=wrap;html=1;spacing=8;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="890" y="520" width="200" height="60" as="geometry" />
+          <mxGeometry x="890" y="560" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-1fxc4yib7ofRESS5T0K-19" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;align=left;" parent="1" vertex="1">
           <mxGeometry x="20" y="110" width="280" height="570" as="geometry" />
@@ -436,24 +436,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lad2l_ytfgTrja-ip1yg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=none;startFill=0;strokeColor=#000000;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ln_ZyMrxEjAvicW-0nf5-11" target="ln_ZyMrxEjAvicW-0nf5-22" edge="1">
+        <mxCell id="Lad2l_ytfgTrja-ip1yg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=none;startFill=0;strokeColor=#000000;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-1fxc4yib7ofRESS5T0K-24" target="ln_ZyMrxEjAvicW-0nf5-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="384.2857142857143" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="880" y="610" />
+              <mxPoint x="880" y="590" />
               <mxPoint x="880" y="410" />
               <mxPoint x="665" y="410" />
               <mxPoint x="665" y="365" />
             </Array>
+            <mxPoint x="870" y="690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lad2l_ytfgTrja-ip1yg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;" parent="1" source="WWAp1A02eeEXavUCdxNv-32" target="ln_ZyMrxEjAvicW-0nf5-10" edge="1">
           <mxGeometry x="650" y="430" as="geometry">
             <Array as="points">
-              <mxPoint x="820" y="490" />
-              <mxPoint x="840" y="490" />
-              <mxPoint x="840" y="550" />
-              <mxPoint x="665" y="550" />
+              <mxPoint x="870" y="510" />
+              <mxPoint x="870" y="550" />
+              <mxPoint x="695" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -468,9 +468,6 @@
         </mxCell>
         <mxCell id="WWAp1A02eeEXavUCdxNv-32" value="Transaction Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontFamily=Verdana;" parent="Lad2l_ytfgTrja-ip1yg-30" vertex="1">
           <mxGeometry x="60" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ln_ZyMrxEjAvicW-0nf5-11" value="Budget Item Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="710" y="590" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Lad2l_ytfgTrja-ip1yg-31" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="680" y="570" width="170" height="80" as="geometry" />
