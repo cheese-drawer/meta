@@ -1,3 +1,3 @@
 # Design
 
-![Design diagram](https://raw.githubusercontent.com/cheese-drawer/meta/add-design/MVP_design.svg?token=ACWMUE273MIRARN43TLKTVTAIDNP4)
+![Design diagram](https://raw.githubusercontent.com/cheese-drawer/meta/main/MVP_design.svg)
