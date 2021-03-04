@@ -2,7 +2,7 @@
 
 The application architecture is intended to be implemented as follows: 
 
-![Design diagram](https://raw.githubusercontent.com/cheese-drawer/meta/main/MVP_design.svg)
+![Design diagram](https://raw.githubusercontent.com/cheese-drawer/meta/main/MVP_design.svg?token=ACWMUE43OE6G43Y6OQAI2BDAIDPSY)
 
 A user Client implements views (User login, Balance, Transactions, etc.) which communicate with a singular gateway API. 
 The Gateway API is responsible for knowing how to contact each of the different services, and for knowing which API route's requests get handled by which services. 
