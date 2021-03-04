@@ -34,3 +34,8 @@ For this reason, the [Service contracts](#service-contracts) define inter-Servic
 The Work Queue pattern is one-way--a sender simply pushes a message to a queue, expecting no response.
 This means that a sender doesn't care about what is done with the message, simply that it was sent.
 Additionally, a receiver not having to worry about sending a response to a sender means the only thing they have to know about the other Service is how to integrate the data from the message into their existing structure.
+
+## Example
+
+To see an example of a Service that follows the guidelines above, see the [Python seed project repo](https://github.com/cheese-drawer/seed-python-rabbitmq-docker).
+The [Development usage section](https://github.com/cheese-drawer/seed-python-rabbitmq-docker/tree/async#development-usage) of the seed project's README outlines the basics of how a Python Service may work in a simplified example.
