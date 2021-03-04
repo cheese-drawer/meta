@@ -28,7 +28,7 @@ Communication between Services should be as limited as possible.
 While it's not practical to limit all communications between Services, an 'ideal' Service is self-contained with no communication to any entities other than the Gateway API.
 
 When a Service does need to communicate something to another Service, the amount of knowledge needed about that other Service should be as minimal as possible. 
-The reason for limiting this knowledge is to encourage loose coupling, allowing for easier development about a Service in as independant of a mannar as possible. 
+The reason for limiting this knowledge is to encourage loose coupling, allowing for easier development about a Service in as independant of a manner as possible. 
 
 For this reason, the [Service contracts](#service-contracts) define inter-Service communication to use a Work Queue pattern over AMQP.
 The Work Queue pattern is one-way--a sender simply pushes a message to a queue, expecting no response.
