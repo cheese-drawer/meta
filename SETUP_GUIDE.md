@@ -14,13 +14,18 @@ Each Service is expected to satisfy each of the following expectations:
 1. Every PR should be as limited in scope as possible to make reviewing simple.
 1. Every PR must be reviewed by the non-author team member before merging.
 1. Each Service will be stored in their own repo in the [cheese-drawer](https://github.com/cheese-drawer) organization.
-1. Each Service will communicate with the Gateway API over AMQP with an RPC pattern.
 1. Each Service will communicate with other Services over AMQP with a Work Queue pattern, when such communication is necessary.
 1. Each Service will be deployed as a Docker image to the [cheese-drawer](https://github.com/cheese-drawer) container registry (see [GitHub Container Registry Docs](https://docs.github.com/en/packages/guides/about-github-container-registry)).
 
 ## Best practices
 
 When designing a new Service keep the following ideas in mind:
+
+### Gateway API to Service communication
+
+Most services should use AMQP to communicate with the API. This is to simplify the API layer on any given service. If a service already needs to send messages to or receive messages from another service, then it will be required to implement an AMQP API layer; bulding a separate layer with a separate protocol to communicate with the Gateway API increases complexity for no reason. 
+
+If a service doesn't need to talk to any other services, it may not be necessary to implement the Gateway API to Service API as AMQP. If a service chooses to use another protocol, be cautious about coupling too tightly to it, as the service's needs may change in the future.
 
 ### Limited Service to Service communication
 
